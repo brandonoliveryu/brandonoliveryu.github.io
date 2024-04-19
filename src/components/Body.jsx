@@ -2,12 +2,9 @@ import React from "react";
 
 const Body = () => {
   return (
-    <div
-      className="flex-col items-center justify-center font-opensans"
-      style={{ fontWeight: 300 }}
-    >
+    <div className="flex-col items-center justify-center font-opensans font-light">
       <p className="mt-5">
-        I’m 22yo; born and raised in Toronto, and am now based in Palo Alto.
+        I’m 22yo. Born and raised in Toronto 🇨🇦 and now based in Palo Alto 🇺🇸
       </p>
       <p className="mt-4">
         Currently, I’m the Chief of Staff of{" "}
@@ -19,9 +16,9 @@ const Body = () => {
         >
           Biogenesis
         </a>
-        , where we're building an end-to-end platform to accelerate clinical
-        trials. I’m obsessed with systems design, building effective teams, and
-        doing good things with good people.
+        , an end-to-end platform to accelerate clinical trials and bring
+        cheaper, more effective medicines to patients. I’m obsessed with systems
+        design, building effective teams, and pursuing the Third Door.
       </p>
       <p className="mt-4">
         Previously, I’ve advised on innovation initiatives for F500 CIOs, played
@@ -35,8 +32,9 @@ const Body = () => {
         >
           Nucleate Dojo
         </a>
-        ), invested in some great founders, and built some pieces of a cancer
-        drug.
+        ), invested in some great founders, and built pieces of a cancer drug. I
+        grew up with autoimmune conditions, and am now on a mission to solve
+        them.
       </p>
       <p className="mt-4">
         Please feel free to{" "}

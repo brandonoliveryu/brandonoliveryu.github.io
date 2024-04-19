@@ -1,13 +1,16 @@
 import React from "react";
+import linkedInImage from "../assets/images/Linkedin.png";
+import twitterImage from "../assets/images/Twitter.png";
+import emailImage from "../assets/images/Email.png";
 
 const Navbar = () => {
   return (
     <div className="flex font-opensans text-white" style={{ fontWeight: 300 }}>
       <h1 className="w-full text-2xl font-medium text-black">
-        Hi, I'm Brandon 👋
+        Hey there, I'm Brandon 👋
       </h1>
 
-      <p className="text-black p-2 items-center justify-center">
+      <p className="flex text-black items-center justify-center">
         {" "}
         <a
           href="https://linkedin.com/in/brandonoliveryu"
@@ -15,11 +18,16 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          LinkedIn
+          <img
+            src={linkedInImage}
+            alt="LinkedIn Profile"
+            className="hover:opacity-50"
+            style={{ width: "30px", height: "26px" }}
+          />
         </a>{" "}
       </p>
 
-      <p className="text-black p-2 items-center justify-center">
+      <p className="flex text-black items-center justify-center">
         {" "}
         <a
           href="https://twitter.com/brandonoliveryu"
@@ -27,11 +35,16 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Twitter
+          <img
+            src={twitterImage}
+            alt="Twitter Profile"
+            className="hover:opacity-50"
+            style={{ width: "30px", height: "26px" }}
+          />
         </a>{" "}
       </p>
 
-      <p className="text-black p-2 items-center justify-center">
+      <p className="flex text-black items-center justify-center">
         {" "}
         <a
           href="mailto:brandonoliveryu@gmail.com"
@@ -39,7 +52,12 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Email
+          <img
+            src={emailImage}
+            alt="LinkedIn Profile"
+            className="hover:opacity-50"
+            style={{ width: "30px", height: "26px" }}
+          />
         </a>{" "}
       </p>
 
