@@ -2,7 +2,7 @@ import React from "react";
 
 const Body = () => {
   return (
-    <div className="flex-col items-center justify-center font-opensans font-light">
+    <div className="flex-col text-base items-center justify-center font-rubik">
       <p className="mt-5">
         I’m 22yo. Born and raised in Toronto 🇨🇦 and now based in Palo Alto 🇺🇸
       </p>
@@ -39,7 +39,7 @@ const Body = () => {
       <p className="mt-4">
         Please feel free to{" "}
         <a
-          href="mailto:brandonoliveryu@gmail.com"
+          href="https://twitter.com/brandonoliveryu"
           className="text-black hover:text-blue-500 underline"
           target="_blank"
           rel="noopener noreferrer"
@@ -48,7 +48,16 @@ const Body = () => {
         </a>
         , or stay in touch via{" "}
         <a
-          href="https://brandonyu.substack.com"
+          href="https://linkedin.com/in/brandonoliveryu"
+          className="text-black hover:text-blue-500 underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Linkedin
+        </a>{" "}
+        or{" "}
+        <a
+          href="https://brandonyu.substack.com/"
           className="text-black hover:text-blue-500 underline"
           target="_blank"
           rel="noopener noreferrer"
