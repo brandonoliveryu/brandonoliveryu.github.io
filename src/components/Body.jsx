@@ -4,7 +4,7 @@ const Body = () => {
   return (
     <div className="flex-col text-base items-center justify-center font-rubik pb-20">
       <p className="mt-5">
-        I’m 22yo. Born and raised in Toronto 🇨🇦 and now based in Palo Alto 🇺🇸
+        I’m 22y/o - born and raised in Toronto and now based in Palo Alto.
       </p>
       <p className="mt-4">
         Currently, I’m the Chief of Staff of{" "}
@@ -32,9 +32,9 @@ const Body = () => {
         >
           Nucleate Dojo
         </a>
-        ), invested in some great founders, and built pieces of a cancer drug. I
-        grew up with autoimmune conditions, and am now on a mission to solve
-        them.
+        ), did healthcare consulting in both public and private sectors, and
+        engineered immune cells and multamerized antibodies. I grew up with
+        autoimmune conditions, and am now on a mission to solve them.
       </p>
       <p className="mt-4">
         Please feel free to{" "}
@@ -53,11 +53,11 @@ const Body = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Linkedin
+          LinkedIn
         </a>{" "}
         or{" "}
         <a
-          href="https://brandonyu.substack.com/"
+          href="https://brandonyu.substack.com"
           className="text-black hover:text-blue-500 underline"
           target="_blank"
           rel="noopener noreferrer"

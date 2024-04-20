@@ -5,8 +5,8 @@ import emailImage from "../assets/images/Email.png";
 
 const Navbar = () => {
   return (
-    <div className="flex font-rubik font-black text-white">
-      <h1 className="w-full text-xl font-rubik text-black">
+    <div className="flex font-rubik text-white">
+      <h1 className="w-full text-xl font-semibold text-black">
         Hi there, I'm Brandon 👋
       </h1>
       <hr />
