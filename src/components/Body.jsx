@@ -2,7 +2,7 @@ import React from "react";
 
 const Body = () => {
   return (
-    <div className="flex-col text-base items-center justify-center font-rubik">
+    <div className="flex-col text-base items-center justify-center font-rubik pb-20">
       <p className="mt-5">
         I’m 22yo. Born and raised in Toronto 🇨🇦 and now based in Palo Alto 🇺🇸
       </p>
