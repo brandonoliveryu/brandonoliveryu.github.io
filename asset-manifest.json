@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/brandonoliveryu/personal-website/static/css/main.e059b8ab.css",
+    "main.js": "/brandonoliveryu/personal-website/static/js/main.f1b2b82e.js",
+    "index.html": "/brandonoliveryu/personal-website/index.html",
+    "main.e059b8ab.css.map": "/brandonoliveryu/personal-website/static/css/main.e059b8ab.css.map",
+    "main.f1b2b82e.js.map": "/brandonoliveryu/personal-website/static/js/main.f1b2b82e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e059b8ab.css",
+    "static/js/main.f1b2b82e.js"
+  ]
+}
